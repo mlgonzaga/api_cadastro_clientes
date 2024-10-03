@@ -8,7 +8,7 @@
   "scripts": {
     "build": "tsup src",
     "dev": "tsx watch src/server.ts",
-    "start": "node  dist/server.js"
+    "start": "node src/server.ts"
   },
   "keywords": [],
   "author": "",
