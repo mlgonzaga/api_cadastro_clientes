@@ -1,14 +1,14 @@
 {
   "name": "api_node",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/server.js", 
   "engines": {
     "node": "20.x"
   },
   "scripts": {
-    "build": "tsc",
+    "build": "tsc",  
     "dev": "tsx watch src/server.ts",
-    "start": "node dist/server.js"
+    "start": "node dist/server.js"  
   },
   "keywords": [],
   "author": "",
