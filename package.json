@@ -7,7 +7,7 @@
     "node": "20.x"
   },
   "scripts": {
-    "build": "tsc",  
+    "build": "tsup src",  
     "start": "node dist/server.js",
     "dev": "tsx watch src/server.ts"
   },
