@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsup src",  
     "start": "node dist/server.js",
-    "postinstall": "prisma generate",
+    "postinstall": "npx prisma generate",
     "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
